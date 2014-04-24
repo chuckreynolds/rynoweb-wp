@@ -1,0 +1,215 @@
+@charset "utf-8";
+/*
+	Theme Name: rYno füd
+	Theme URI: http://rynoweb.com
+	Description: Personal design for rYnoweb.com
+	Author: Chuck Reynolds
+	Author URI: http://rynoweb.com
+	Version: 1.2
+
+	License: GNU General Public License v3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+* {margin:0; padding:0;}
+body {background:#1a1a1a url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_body.jpg') top center fixed no-repeat; color:#333; font-family:"Myriad Pro", Helvetica, Arial, sans-serif; font-size:10px;}
+
+/* Structural */
+#wrapItUp {width:850px; /**/ margin:0 auto; background: url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_content.gif') top repeat-y;}
+#content {float:right; background:transparent; margin:0 auto; padding:5px;}
+#sidebar {float:right; margin:0; width:320px;}
+	#sidebar div {margin:5px 0; padding:0;}
+	.sbar-topics {float:left; width:150px; padding:0 10px 2px 0;}
+	.sbar-rss {float:left; width:150px; padding:0 10px 2px 0;}
+	.sbar-recent-posts {float:left; width:150px; padding:0 10px 2px 0;}
+#footr {height:100px; background:#1a1a1a url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_footr.gif') top no-repeat; clear:both;}
+#footr p, #footr p a, #footr p a a {margin:30px 0 0 0;}
+#post {float:left; padding:0 16px 20px 8px; width:495px;}
+
+
+/* Search Form
+#searchBar {text-align:left; margin:0; padding:0;}
+.inputs {margin:0; padding:0; width:325px; height:35px; background:url('images/bg_search.gif') top left no-repeat;}
+input.field {background-color:#414040; border:none; color:#999; margin:2px 0 0 8px; width:190px; font-weight:bold; height:25px;}
+input.button {background:url('images/search_button.gif') top no-repeat; width:100px; height:35px; cursor:pointer; border:none; margin-left:15px; padding:0;}
+*/
+
+label {font-size: 1.5em; line-height: 1.467em;}
+.ninja-forms-form {padding-right: 20px;}
+/* Form fields, general styles first - stolen from twentytwelve */
+button,
+input,
+textarea {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: inherit;
+	padding: 6px;
+	padding: 0.428571429rem;
+}
+button,
+input {
+	line-height: normal;
+}
+textarea {
+	font-size: 100%;
+	overflow: auto;
+	vertical-align: top;
+}
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"],
+input[type="hidden"],
+input[type="image"],
+input[type="color"] {
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+}
+
+
+/* General (Tso's) Stuff */
+img, a img, .entry a img, .entry img, a:hover img {border:0; text-decoration:none; background:transparent;
+	-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;}
+.alignleft {float:left; margin-right:8px; padding-bottom:4px;}
+.clrBoth {clear:both; margin:0; padding:0;}
+abbr, acronym {border-bottom:1px dashed #999; cursor:help;}
+code, pre {font:normal 1.1em "Courier New", Courier; color:#666; text-decoration:none; text-align:left;}
+ul, ol {margin:0; padding:0;}
+.center, .aligncenter {text-align:center;}
+.navigation {padding:10px 0; color:#aaa9a9; font-size:1.1em;}
+	.navigation a:link, .navigation a:visited {color:#aaa9a9; text-decoration:none; background:none;}
+	.navigation .alignleft {text-align:left;}
+	.navigation .alignright {text-align:right;}
+.reqField {color:#920e12;}
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;}
+
+div.soc_share {display:inline-block;}
+div.soc_button {float:left;}
+
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+
+/* Post Fun */
+#post h1 {color:#333; font-weight:bold; font-size:3.0em; letter-spacing:-1px; line-height:1.222em;}
+	#post h1 a {color:#333; text-decoration:none;}
+	#post h1 a:hover {color:#920e12;}
+#post p {margin:5px 0 14px 0; font-size:1.5em; line-height:1.467em;}
+#post .more-link {}
+#post .postMeta {margin:0; padding:8px 0 0 10px; font-size:1.1em;}
+.postMetaInfo {color:#666;}
+
+
+/* Entry Fun */
+.entry {margin:0 0 44px 0; padding:0;}
+.entry a:link, .entry a:visited, .entry a:active {color:#1a1a1a; text-decoration:none; border-bottom:1px solid #666;}
+.entry:hover a:link, .entry:hover a:visited, .entry:hover a:active, .content:hover p a:link, .content:hover p a:visited, .content:hover p a:active, .content:hover li a:link, .content:hover li a:visited,  .content:hover li a:active, .content:hover h1 a:link, .content:hover h1 a:visited, .content:hover h1 a:active, .content:hover h3 a:link, .content:hover h3 a:visited, .content:hover h3 a:active, .sidebar:hover a:link, .sidebar:hover a:visited, .sidebar:hover a:active {text-decoration:none; border-bottom:1px solid #920e12;}
+.entry:hover a:hover, .entry a:hover, .content:hover p a:hover, .content:hover li a:hover, .content:hover h1 a:hover, .content:hover h3 a:hover, .sidebar:hover a:hover {color:#fff; text-decoration:none; border-bottom:1px solid #920e12; background-color:#920e12;-webkit-transition-duration:.3s;-moz-transition-duration:.3s;}
+.entry h2 {font-size:2em; margin:14px 0 -3px 0; padding:0; color:#920e12}
+.entry h3 {font-size:1.8em; margin:14px 0 -3px 0; padding:0; color:#333}
+.entry ul, .entry ol {margin:2px 0 8px 4px;}
+.entry ul li {font-size:1.5em; line-height:1.467em; margin-top:3px; background:url('http://rynoweb.s3-us-west-1.amazonaws.com/bullet.png') no-repeat 5px 3px; list-style:none; padding:1px 0 4px 4px; list-style-position:inside; text-indent:18px;}
+.entry ol li {font-size:1.5em; line-height:1.467em; background:none; padding:1px 0 10px 4px; list-style-position:inside; text-indent:4px;}
+blockquote {margin:4px 8px 4px 20px; text-align:left;}
+
+
+/* Comment Fun */
+ol.commentlist li.comment {list-style-type:none; background-color:none;}
+.post-comment-divider {background:url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_post_end.gif') top center no-repeat; width:495px; height:24px; margin:0 0 10px 0;}
+.comment.alt {padding:10px; border-bottom:1px solid #a6a3a3; background-color:#fafafa;}
+
+.comment {padding:10px; border-bottom:1px solid #a6a3a3; background-color:#eee;}
+	.comment a {color:#333; text-decoration:none; border-bottom:1px solid #298ffe;}
+	.comment:hover a {color:#333; text-decoration:none; border-bottom:1px solid #298ffe;}
+	.comment:hover a:hover {color:#1a1a1a; text-decoration:none; background-color:#298ffe;}
+
+.comment-postauthor {padding:10px; margin:0; background:url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_author.jpg') repeat-y 0 0;}
+	.comment-postauthor a {color:#333; text-decoration:none; border-bottom:1px solid #920e12;}
+	.comment-postauthor:hover a {color:#333; text-decoration:none; border-bottom:1px solid #920e12;}
+	.comment-postauthor:hover a:hover {color:#fff; text-decoration:none; background-color:#920e12;}
+
+h3#comments {padding:5px 0;}
+.count {font:bold 1.6em; float:left; color:#888; margin:2px 2px 0 3px;}
+	.count a, .count:hover a, .count:hover a:hover {text-decoration:none; border:0; background:none;}
+
+.avatar {float:right; padding:0 0 2px 10px;} /* gravatar img as of v2.5 */
+
+/* Sidebar Fun */
+#sidebar h1, #sidebar h1 a:link, #sidebar h1 a:visited, #sidebar h1 a:hover {margin:20px 0 0 0; padding:0; text-decoration:none; border:0;}
+	#sidebar h1 a.logo, #sidebar p a.logo {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/logo_rynoweb.png') top no-repeat; width:230px; height:71px; display:block; text-indent:-9999px; margin:0 0 10px 26px; overflow:hidden;}
+
+#sidebar h2, #sidebar h3 {color:#999; font:bold 1.4em; margin:10px 0 0 5px; padding:0; text-align:left;}
+#sidebar p {color:#ccc; margin:5px 10px; display:block;}
+	.intro p {font-size:1.6em; line-height:1.467em;}
+	.intro a:link, .intro a:visited, .intro a:active {color:#ccc; text-decoration:none; border-bottom:1px solid #ccc;}
+	.intro:hover a:link, .intro:hover a:visited, .intro:hover a:active {color:#ccc; text-decoration:none; border-bottom:1px solid #920e12;}
+	.intro:hover a:hover, .intro a:hover, .intro:hover p a:hover {color:#fff; text-decoration:none; border-bottom:1px solid #920e12; background-color:#920e12;}
+#sidebar li {font-size:1.2em; line-height:1.05em; list-style-type:none;}
+#sidebar p img.chuck {float:left; padding:5px 8px 5px 0;}
+#sidebar .divider-top {background: url('http://rynoweb.s3-us-west-1.amazonaws.com/divider_top.gif') no-repeat; width:300px; height:25px;}
+#sidebar .divider-bottom {background: url('http://rynoweb.s3-us-west-1.amazonaws.com/divider_bottom.gif') no-repeat; width:300px; height:25px;}
+
+#sbar-bookmark, #sbar-bookmark p {color:#298ffe; font-size:1.4em; margin:0; padding:0; text-transform:uppercase; text-align:center;}
+	#sbar-bookmark a:link, #sbar-bookmark a:visited {color:#298ffe; font-size:0.9em; font-weight:bold; margin:0; padding:0; text-transform:uppercase; text-decoration:none;}
+	#sbar-bookmark a:hover {color:#1a1a1a; text-decoration:none; background-color:#298ffe;}
+
+#sbar-tagcloud {margin:0 0 10px 0; padding:0; width:100%; line-height:normal;}
+	#sbar-tagcloud a {color:#ccc; text-decoration:none;}
+	#sbar-tagcloud:hover a {color:#ccc; text-decoration:none; border-bottom:1px solid #ccc;}
+	#sbar-tagcloud:hover a:hover {color:#1a1a1a; text-decoration:none; background-color:#ccc;}
+
+.sbar-topics ul {margin:0 0 0 10px; padding:0; width:100%; list-style:none;}
+.sbar-topics li {margin:0 0 .7em 0; padding:0; color:#ccc;}
+	.sbar-topics a {color:#ccc; text-decoration:none;}
+	.sbar-topics:hover a {color:#ccc; text-decoration:none; border-bottom:1px solid #52dd2c;}
+	.sbar-topics:hover a:hover {color:#1a1a1a; text-decoration:none; background-color:#52dd2c;}
+
+.sbar-recent-posts ul {margin:0 0 0 10px; padding:0; width:100%; list-style:none;}
+.sbar-recent-posts li {margin:0 0 .7em 0; padding:0; color:#ccc;}
+	.sbar-recent-posts a {color:#ccc; text-decoration:none;}
+	.sbar-recent-posts:hover a {color:#ccc; text-decoration:none; border-bottom:1px solid #298ffe;}
+	.sbar-recent-posts:hover a:hover {color:#1a1a1a; text-decoration:none; background-color:#298ffe;}
+
+.sbar-rss img a, .sbar-rss:hover a:hover img, .sbar-rss:hover a img {border:none; text-decoration:none;}
+	.sbar-rss ul {margin:0 0 0 10px; padding:0; width:100%; list-style:none;}
+	.sbar-rss li {margin:0 0 .7em 0; padding:0; color:#ff870c;}
+	.sbar-rss a {color:#ff870c; text-decoration:none;}
+	.sbar-rss:hover a {color:#ff870c; text-decoration:none; border-bottom:1px solid #ff870c;}
+	.sbar-rss:hover a:hover {color:#1a1a1a; text-decoration:none; background-color:#ff870c;}
+
+.exlynkz ul li {display:inline; padding-left: 20px;}
+
+
+/* Cool Heads */
+#sidebar h2 {margin:0; padding:0;}
+#sidebar h2 span, #sidebar h3 span {display:block; height:37px; text-indent:-9000px; position:relative;}
+	h2#topics span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 0; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
+	h2#recent-posts span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -37px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
+	h2#subscribe span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -74px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
+	h3#comment-head span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -111px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
+	h2#popular-tags span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -148px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
+	h3#unload-comment span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -185px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
+
+
+/* Footer Fun */
+#footr p {margin:0; padding:62px 0px 4px 62px; font-size:1.1em; color:#222;}
+	#footr a:link, #footr a:visited, #footr a:active {color:#222; text-decoration:none;}
+	#footr a:hover {color:#222; text-decoration:underline;}
+.feedLink {height:12px; padding-left:16px; background:url('http://rynoweb.s3-us-west-1.amazonaws.com/icon_rss.gif') no-repeat 0% 30%;}
+
+
+/* WP125 Ad styling */
+/* Styles for one-column display */
+#wp125adwrap_1c { width:100%; }
+#wp125adwrap_1c .wp125ad { margin-bottom:10px; }
+
+/* Styles for two-column display */
+#wp125adwrap_2c { width:100%; }
+#wp125adwrap_2c .wp125ad { width:125px; float:left; padding:10px; padding-bottom:0;}
