@@ -143,7 +143,7 @@ h3#comments {padding:5px 0;}
 
 /* Sidebar Fun */
 #sidebar h1, #sidebar h1 a:link, #sidebar h1 a:visited, #sidebar h1 a:hover {margin:20px 0 0 0; padding:0; text-decoration:none; border:0;}
-	#sidebar h1 a.logo, #sidebar p a.logo {background:transparent url('iamges/logo_rynoweb.png') top no-repeat; width:230px; height:71px; display:block; text-indent:-9999px; margin:0 0 10px 26px; overflow:hidden;}
+	#sidebar h1 a.logo, #sidebar p a.logo {background:transparent url('images/logo_rynoweb.png') top no-repeat; width:230px; height:71px; display:block; text-indent:-9999px; margin:0 0 10px 26px; overflow:hidden;}
 
 #sidebar h2, #sidebar h3 {color:#999; font:bold 1.4em; margin:10px 0 0 5px; padding:0; text-align:left;}
 #sidebar p {color:#ccc; margin:5px 10px; display:block;}
