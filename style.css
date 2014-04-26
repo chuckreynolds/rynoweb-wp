@@ -11,17 +11,17 @@
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 * {margin:0; padding:0;}
-body {background:#1a1a1a url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_body.jpg') top center fixed no-repeat; color:#333; font-family:"Myriad Pro", Helvetica, Arial, sans-serif; font-size:10px;}
+body {background:#1a1a1a url('images/bg_body.jpg') top center fixed no-repeat; color:#333; font-family:"Myriad Pro", Helvetica, Arial, sans-serif; font-size:10px;}
 
 /* Structural */
-#wrapItUp {width:850px; /**/ margin:0 auto; background: url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_content.gif') top repeat-y;}
+#wrapItUp {width:850px; /**/ margin:0 auto; background: url('images/bg_content.gif') top repeat-y;}
 #content {float:right; background:transparent; margin:0 auto; padding:5px;}
 #sidebar {float:right; margin:0; width:320px;}
 	#sidebar div {margin:5px 0; padding:0;}
 	.sbar-topics {float:left; width:150px; padding:0 10px 2px 0;}
 	.sbar-rss {float:left; width:150px; padding:0 10px 2px 0;}
 	.sbar-recent-posts {float:left; width:150px; padding:0 10px 2px 0;}
-#footr {height:100px; background:#1a1a1a url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_footr.gif') top no-repeat; clear:both;}
+#footr {height:100px; background:#1a1a1a url('images/bg_footr.gif') top no-repeat; clear:both;}
 #footr p, #footr p a, #footr p a a {margin:30px 0 0 0;}
 #post {float:left; padding:0 16px 20px 8px; width:495px;}
 
@@ -115,14 +115,14 @@ div.soc_button {float:left;}
 .entry h2 {font-size:2em; margin:14px 0 -3px 0; padding:0; color:#920e12}
 .entry h3 {font-size:1.8em; margin:14px 0 -3px 0; padding:0; color:#333}
 .entry ul, .entry ol {margin:2px 0 8px 4px;}
-.entry ul li {font-size:1.5em; line-height:1.467em; margin-top:3px; background:url('http://rynoweb.s3-us-west-1.amazonaws.com/bullet.png') no-repeat 5px 3px; list-style:none; padding:1px 0 4px 4px; list-style-position:inside; text-indent:18px;}
+.entry ul li {font-size:1.5em; line-height:1.467em; margin-top:3px; background:url('images/bullet.png') no-repeat 5px 3px; list-style:none; padding:1px 0 4px 4px; list-style-position:inside; text-indent:18px;}
 .entry ol li {font-size:1.5em; line-height:1.467em; background:none; padding:1px 0 10px 4px; list-style-position:inside; text-indent:4px;}
 blockquote {margin:4px 8px 4px 20px; text-align:left;}
 
 
 /* Comment Fun */
 ol.commentlist li.comment {list-style-type:none; background-color:none;}
-.post-comment-divider {background:url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_post_end.gif') top center no-repeat; width:495px; height:24px; margin:0 0 10px 0;}
+.post-comment-divider {background:url('images/bg_post_end.gif') top center no-repeat; width:495px; height:24px; margin:0 0 10px 0;}
 .comment.alt {padding:10px; border-bottom:1px solid #a6a3a3; background-color:#fafafa;}
 
 .comment {padding:10px; border-bottom:1px solid #a6a3a3; background-color:#eee;}
@@ -130,7 +130,7 @@ ol.commentlist li.comment {list-style-type:none; background-color:none;}
 	.comment:hover a {color:#333; text-decoration:none; border-bottom:1px solid #298ffe;}
 	.comment:hover a:hover {color:#1a1a1a; text-decoration:none; background-color:#298ffe;}
 
-.comment-postauthor {padding:10px; margin:0; background:url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_author.jpg') repeat-y 0 0;}
+.comment-postauthor {padding:10px; margin:0; background:url('images/bg_author.jpg') repeat-y 0 0;}
 	.comment-postauthor a {color:#333; text-decoration:none; border-bottom:1px solid #920e12;}
 	.comment-postauthor:hover a {color:#333; text-decoration:none; border-bottom:1px solid #920e12;}
 	.comment-postauthor:hover a:hover {color:#fff; text-decoration:none; background-color:#920e12;}
@@ -143,7 +143,7 @@ h3#comments {padding:5px 0;}
 
 /* Sidebar Fun */
 #sidebar h1, #sidebar h1 a:link, #sidebar h1 a:visited, #sidebar h1 a:hover {margin:20px 0 0 0; padding:0; text-decoration:none; border:0;}
-	#sidebar h1 a.logo, #sidebar p a.logo {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/logo_rynoweb.png') top no-repeat; width:230px; height:71px; display:block; text-indent:-9999px; margin:0 0 10px 26px; overflow:hidden;}
+	#sidebar h1 a.logo, #sidebar p a.logo {background:transparent url('iamges/logo_rynoweb.png') top no-repeat; width:230px; height:71px; display:block; text-indent:-9999px; margin:0 0 10px 26px; overflow:hidden;}
 
 #sidebar h2, #sidebar h3 {color:#999; font:bold 1.4em; margin:10px 0 0 5px; padding:0; text-align:left;}
 #sidebar p {color:#ccc; margin:5px 10px; display:block;}
@@ -153,8 +153,8 @@ h3#comments {padding:5px 0;}
 	.intro:hover a:hover, .intro a:hover, .intro:hover p a:hover {color:#fff; text-decoration:none; border-bottom:1px solid #920e12; background-color:#920e12;}
 #sidebar li {font-size:1.2em; line-height:1.05em; list-style-type:none;}
 #sidebar p img.chuck {float:left; padding:5px 8px 5px 0;}
-#sidebar .divider-top {background: url('http://rynoweb.s3-us-west-1.amazonaws.com/divider_top.gif') no-repeat; width:300px; height:25px;}
-#sidebar .divider-bottom {background: url('http://rynoweb.s3-us-west-1.amazonaws.com/divider_bottom.gif') no-repeat; width:300px; height:25px;}
+#sidebar .divider-top {background: url('images/divider_top.gif') no-repeat; width:300px; height:25px;}
+#sidebar .divider-bottom {background: url('images/divider_bottom.gif') no-repeat; width:300px; height:25px;}
 
 #sbar-bookmark, #sbar-bookmark p {color:#298ffe; font-size:1.4em; margin:0; padding:0; text-transform:uppercase; text-align:center;}
 	#sbar-bookmark a:link, #sbar-bookmark a:visited {color:#298ffe; font-size:0.9em; font-weight:bold; margin:0; padding:0; text-transform:uppercase; text-decoration:none;}
@@ -190,19 +190,19 @@ h3#comments {padding:5px 0;}
 /* Cool Heads */
 #sidebar h2 {margin:0; padding:0;}
 #sidebar h2 span, #sidebar h3 span {display:block; height:37px; text-indent:-9000px; position:relative;}
-	h2#topics span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 0; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
-	h2#recent-posts span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -37px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
-	h2#subscribe span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -74px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
-	h3#comment-head span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -111px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
-	h2#popular-tags span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -148px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
-	h3#unload-comment span {background:transparent url('http://rynoweb.s3-us-west-1.amazonaws.com/bg_headings.png') no-repeat 0 -185px; behavior:url('http://rynoweb.s3-us-west-1.amazonaws.com/iepngfix.htc');}
+	h2#topics span {background:transparent url('images/bg_headings.png') no-repeat 0 0; behavior:url('images/iepngfix.htc');}
+	h2#recent-posts span {background:transparent url('images/bg_headings.png') no-repeat 0 -37px; behavior:url('images/iepngfix.htc');}
+	h2#subscribe span {background:transparent url('images/bg_headings.png') no-repeat 0 -74px; behavior:url('images/iepngfix.htc');}
+	h3#comment-head span {background:transparent url('images/bg_headings.png') no-repeat 0 -111px; behavior:url('images/iepngfix.htc');}
+	h2#popular-tags span {background:transparent url('images/bg_headings.png') no-repeat 0 -148px; behavior:url('images/iepngfix.htc');}
+	h3#unload-comment span {background:transparent url('images/bg_headings.png') no-repeat 0 -185px; behavior:url('images/iepngfix.htc');}
 
 
 /* Footer Fun */
 #footr p {margin:0; padding:62px 0px 4px 62px; font-size:1.1em; color:#222;}
 	#footr a:link, #footr a:visited, #footr a:active {color:#222; text-decoration:none;}
 	#footr a:hover {color:#222; text-decoration:underline;}
-.feedLink {height:12px; padding-left:16px; background:url('http://rynoweb.s3-us-west-1.amazonaws.com/icon_rss.gif') no-repeat 0% 30%;}
+.feedLink {height:12px; padding-left:16px; background:url('images/icon_rss.gif') no-repeat 0% 30%;}
 
 
 /* WP125 Ad styling */
