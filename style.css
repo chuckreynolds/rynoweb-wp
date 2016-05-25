@@ -216,6 +216,10 @@ input[type="radio"] {
 	font-style: italic;
 }
 
+.ccf-form-wrapper .field label.main-label {
+	font-size: 1.6em;
+}
+
 .ccf-form-wrapper .field label.main-label .required {
 	padding-right: 0.2em !important;
 	color: #920e12 !important;
