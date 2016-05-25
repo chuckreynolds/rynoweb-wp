@@ -9,8 +9,8 @@
     <div class="intro">
 	<p><?php bloginfo('description'); ?> <br />
 		<a href="<?php echo home_url(); ?>/contact/" title="Contact rYnoweb" rel="author">Contact Us</a><br />
-		<a href="<?php echo home_url(); ?>/about/" title="About rYnoweb" rel="author">About rYnoweb</a><br />
-		Looking for <a href="/wordpress-plugins/" title="WordPress Plugins by Chuck">WordPress Plugins</a>?</p>
+		<a href="<?php echo home_url(); ?>/about/" title="About rYnoweb" rel="author">About Rynoweb</a><br />
+		Looking for <a href="<?php echo home_url(); ?>/wordpress-plugins/" title="WordPress Plugins by Chuck">WordPress Plugins</a>?</p>
     </div>
     <div class="divider-top"></div>
 
@@ -21,10 +21,9 @@
     </div><!-- END sbar-topics -->
 
     <div class="sbar-rss">
-        <h2 id="subscribe"><span>Subscribe to RSS</span></h2>
+        <h2 id="subscribe"><span>Subscribe</span></h2>
         	<ul>
-            	<li><a href="<?php bloginfo('rss2_url'); ?>" class="feedLink">Subscribe via RSS</a></li>
-				<li><a href="http://facebook.com/rynoweb/" title="rYnoweb on Facebook">Like on Facebook</a></li>
+				<li><a href="https://facebook.com/rynoweb/" title="Rynoweb on Facebook">Like on Facebook</a></li>
             </ul>
     </div><!-- END sbar-rss -->
 
