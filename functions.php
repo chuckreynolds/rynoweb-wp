@@ -25,8 +25,9 @@ function ryno_theme_setup() {
 // add additional meta into header
 function ryno_build_header() { ?>
 <meta name="viewport" content="width=device-width" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
+<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
 <!-- global positioning
      GeoTag metadata -->
 <meta name="geo.country" content="US" />

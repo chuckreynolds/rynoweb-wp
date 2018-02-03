@@ -2,7 +2,7 @@
 	</div><!-- END content -->
 
 	<div id="footr">
-    	<p>rynoweb powered by <a href="http://chuckreynolds.us" title="Chuck Reynolds">chuck</a>, built on <a href="http://wordpress.org" rel="nofollow">wordpress</a></p>
+    	<p>rynoweb powered by <a href="http://chuckreynolds.com" title="Chuck Reynolds">chuck reynolds</a>, built on wordpress</p>
 	</div><!-- END footr -->
 
 </div><!-- END wrapItUp -->
