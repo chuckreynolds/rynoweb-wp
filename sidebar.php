@@ -1,16 +1,15 @@
 <div id="sidebar">
 
-    <?php if ( is_home() ) : // display on home page only ?>
-		<h1><a class="logo" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a></h1>
-	<?php endif; ?>
-    <?php if ( !is_home() ) : // dont display on home page ?>
-		<p><a class="logo" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a></p>
+    <?php if ( is_front_page() ) : ?>
+		<h1><a class="logo" href="/"><?php bloginfo('name'); ?></a></h1>
+    <?php else: ?>
+		<p><a class="logo" href="/"><?php bloginfo('name'); ?></a></p>
 	<?php endif; ?>
     <div class="intro">
-	<p><?php bloginfo('description'); ?> <br />
-		<a href="<?php echo home_url(); ?>/contact/" title="Contact rYnoweb" rel="author">Contact Us</a><br />
-		<a href="<?php echo home_url(); ?>/about/" title="About rYnoweb" rel="author">About Rynoweb</a><br />
-		Looking for <a href="<?php echo home_url(); ?>/wordpress-plugins/" title="WordPress Plugins by Chuck">WordPress Plugins</a>?</p>
+	<p><?php bloginfo('description'); ?> <br>
+		<a href="/contact/" title="Contact Rynoweb" rel="author">Contact Us</a><br />
+		<a href="/about/" title="About Rynoweb" rel="author">About Rynoweb</a><br />
+		Looking for <a href="/wordpress-plugins/" title="WordPress Plugins by Chuck">WordPress Plugins</a>?</p>
     </div>
     <div class="divider-top"></div>
 
@@ -23,7 +22,8 @@
     <div class="sbar-rss">
         <h2 id="subscribe"><span>Subscribe</span></h2>
         	<ul>
-				<li><a href="https://facebook.com/rynoweb/" title="Rynoweb on Facebook">Like on Facebook</a></li>
+                <li><a href="https://www.facebook.com/rynoweb/" title="Rynoweb on Facebook">Like on Facebook</a></li>
+                <li><a href="https://twitter.com/rynoweb" title="Rynoweb on Twitter">Follow on Twitter</a></li>
             </ul>
     </div><!-- END sbar-rss -->
 
