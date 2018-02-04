@@ -126,7 +126,7 @@ h3#comments {padding:5px 0;}
 	.intro a:link, .intro a:visited, .intro a:active {color:#ccc; text-decoration:none; border-bottom:1px solid #ccc;}
 	.intro:hover a:link, .intro:hover a:visited, .intro:hover a:active {color:#ccc; text-decoration:none; border-bottom:1px solid #920e12;}
 	.intro:hover a:hover, .intro a:hover, .intro:hover p a:hover {color:#fff; text-decoration:none; border-bottom:1px solid #920e12; background-color:#920e12;}
-#sidebar li {font-size:1.2em; list-style-type:none;}
+#sidebar li {font-size:1.2em; list-style-type:none; line-height:1.35em;}
 #sidebar p img.chuck {float:left; padding:5px 8px 5px 0;}
 #sidebar .divider-top {background: url('images/divider_top.gif') no-repeat; width:300px; height:25px;}
 #sidebar .divider-bottom {background: url('images/divider_bottom.gif') no-repeat; width:300px; height:25px;}
