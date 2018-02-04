@@ -2,11 +2,10 @@
 /*
 	Theme Name: rYno füd
 	Theme URI: http://rynoweb.com
-	Description: Personal design for rYnoweb.com
+	Description: Personal design for Rynoweb.com (circa 2006)
 	Author: Chuck Reynolds
-	Author URI: http://rynoweb.com
-	Version: 1.2
-
+	Author URI: http://chuckreynolds.com
+	Version: 1.3
 	License: GNU General Public License v3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -24,7 +23,6 @@ body {background:#1a1a1a url('images/bg_body.jpg') top center fixed no-repeat; c
 #footr {height:100px; background:#1a1a1a url('images/bg_footr.gif') top no-repeat; clear:both;}
 #footr p, #footr p a, #footr p a a {margin:30px 0 0 0;}
 #post {float:left; padding:0 16px 20px 8px; width:495px;}
-
 
 /* General (Tso's) Stuff */
 img, a img, .entry a img, .entry img, a:hover img {border:0; text-decoration:none; background:transparent;
@@ -44,9 +42,7 @@ ul, ol {margin:0; padding:0;}
 .size-full,
 .size-large,
 .size-medium,
-.size-thumbnail {
-	max-width: 100%;
-	height: auto;}
+.size-thumbnail {max-width:100%; height:auto;}
 
 div.soc_share {display:inline-block;}
 div.soc_button {float:left;}
@@ -64,8 +60,8 @@ div.soc_button {float:left;}
 #post p {margin:5px 0 14px 0; font-size:1.5em; line-height:1.467em;}
 #post .more-link {}
 #post .postMeta {margin:0; padding:8px 0 0 10px; font-size:1.1em;}
+#post .postMeta a {border:0;}
 .postMetaInfo {color:#666;}
-
 
 /* Entry Fun */
 .entry {margin:0 0 44px 0; padding:0;}
@@ -79,156 +75,24 @@ div.soc_button {float:left;}
 .entry ol li {font-size:1.5em; line-height:1.467em; background:none; padding:1px 0 10px 4px; list-style-position:inside; text-indent:4px;}
 blockquote {margin:4px 8px 4px 20px; text-align:left;}
 
-
-/*
- * 5.0 Forms - borrowed from twentyfifteen
- */
-button,
-input,
-select,
-textarea {
-	background-color: #f7f7f7;
-	border-radius: 0;
-	font-size: 14px;
-	font-size: 1.1rem;
-	line-height: 1.4;
-	margin: 0;
-	max-width: 100%;
-	vertical-align: baseline;
-}
-
-button,
-input {
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	line-height: normal;
-}
-
-input,
-textarea {
-	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); /* Removing the inner shadow on iOS inputs */
-	border: 1px solid #eaeaea;
-	border: 1px solid rgba(51, 51, 51, 0.1);
-	color: #707070;
-	color: rgba(51, 51, 51, 0.7);
-}
-
-input:focus,
-textarea:focus {
-	background-color: #fff;
-	border: 1px solid #c1c1c1;
-	border: 1px solid rgba(51, 51, 51, 0.3);
-	color: #333;
-}
-
-input:focus,
-select:focus {
-	outline: 2px solid #c1c1c1;
-	outline: 2px solid rgba(51, 51, 51, 0.3);
-}
-
-button[disabled],
-input[disabled],
-select[disabled],
-textarea[disabled] {
-	cursor: default;
-	opacity: .5;
-}
-
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-	-webkit-appearance: button;
-	background-color: #333;
-	border: 0;
-	color: #fff;
-	cursor: pointer;
-	font-family: "Noto Sans", sans-serif;
-	font-size: 12px;
-	font-size: 1.1rem;
-	font-weight: 700;
-	padding: 0.8em 1.2em 0.6em;
-	text-transform: uppercase;
-}
-
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover,
-button:focus,
-input[type="button"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus {
-	background-color: #707070;
-	background-color: rgba(51, 51, 51, 0.7);
-	outline: 0;
-}
-
-input[type="search"] {
-	-webkit-appearance: textfield;
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-	-webkit-appearance: none;
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-	border: 0;
-	padding: 0;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-textarea {
-	padding: 0.375em;
-	width: 100%;
-}
-
-textarea {
-	overflow: auto;
-	vertical-align: top;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-textarea:focus {
-	outline: 0;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-	padding: 0;
-}
-
-.ccf-form-wrapper .field-description {
-	font-size:12px !important;
-	font-style: italic;
-}
-
-.ccf-form-wrapper .field label.main-label {
-	font-size: 1.6em;
-}
-
-.ccf-form-wrapper .field label.main-label .required {
-	padding-right: 0.2em !important;
-	color: #920e12 !important;
-}
-
 /* fix firefox's stupid dotted border */
-select:-moz-focusring {
-	color: transparent;
-	text-shadow: 0 0 0 #000;
+select:-moz-focusring {color: transparent; text-shadow: 0 0 0 #000;}
+
+/* WPForms Overrides */
+div.wpforms-container-full .wpforms-form button[type=submit] {
+	background-color: #333 !important;
+	border: 1px solid #333 !important;
+	color: #ddd !important;
+	font-size: 1.6em !important;
+}
+div.wpforms-container-full .wpforms-form button[type=submit]:hover {
+	background-color: #ddd !important;
+	border: 1px solid #333 !important;
+	color: #333 !important;
+}
+div.wpforms-container-full .wpforms-form .wpforms-required-label,
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+	color: #920e12 !important;
 }
 
 /* Comment Fun */
@@ -262,7 +126,7 @@ h3#comments {padding:5px 0;}
 	.intro a:link, .intro a:visited, .intro a:active {color:#ccc; text-decoration:none; border-bottom:1px solid #ccc;}
 	.intro:hover a:link, .intro:hover a:visited, .intro:hover a:active {color:#ccc; text-decoration:none; border-bottom:1px solid #920e12;}
 	.intro:hover a:hover, .intro a:hover, .intro:hover p a:hover {color:#fff; text-decoration:none; border-bottom:1px solid #920e12; background-color:#920e12;}
-#sidebar li {font-size:1.2em; line-height:1.05em; list-style-type:none;}
+#sidebar li {font-size:1.2em; list-style-type:none;}
 #sidebar p img.chuck {float:left; padding:5px 8px 5px 0;}
 #sidebar .divider-top {background: url('images/divider_top.gif') no-repeat; width:300px; height:25px;}
 #sidebar .divider-bottom {background: url('images/divider_bottom.gif') no-repeat; width:300px; height:25px;}
@@ -297,7 +161,6 @@ h3#comments {padding:5px 0;}
 
 .exlynkz ul li {display:inline; padding-left: 20px;}
 
-
 /* Cool Heads */
 #sidebar h2 {margin:0; padding:0;}
 #sidebar h2 span, #sidebar h3 span {display:block; height:37px; text-indent:-9000px; position:relative;}
@@ -308,19 +171,8 @@ h3#comments {padding:5px 0;}
 	h2#popular-tags span {background:transparent url('images/bg_headings.png') no-repeat 0 -148px; behavior:url('images/iepngfix.htc');}
 	h3#unload-comment span {background:transparent url('images/bg_headings.png') no-repeat 0 -185px; behavior:url('images/iepngfix.htc');}
 
-
 /* Footer Fun */
 #footr p {margin:0; padding:62px 0px 4px 62px; font-size:1.1em; color:#222;}
 	#footr a:link, #footr a:visited, #footr a:active {color:#222; text-decoration:none;}
 	#footr a:hover {color:#222; text-decoration:underline;}
 .feedLink {height:12px; padding-left:16px; background:url('images/icon_rss.gif') no-repeat 0% 30%;}
-
-
-/* WP125 Ad styling */
-/* Styles for one-column display */
-#wp125adwrap_1c { width:100%; }
-#wp125adwrap_1c .wp125ad { margin-bottom:10px; }
-
-/* Styles for two-column display */
-#wp125adwrap_2c { width:100%; }
-#wp125adwrap_2c .wp125ad { width:125px; float:left; padding:10px; padding-bottom:0;}
