@@ -15,11 +15,6 @@ function ryno_theme_setup() {
 	// add additional meta into header
 	add_action('wp_head', 'ryno_build_header', '1');
 	add_action('wp_head', 'ryno_build_analytics_header', '5');
-	// continue to clean up header
-	remove_action('wp_head', 'wp_generator');
-	remove_action('wp_head', 'start_post_rel_link');
-	remove_action('wp_head', 'index_rel_link');
-	remove_action('wp_head', 'adjacent_posts_rel_link');
 }
 
 // add additional meta into header
@@ -45,9 +40,9 @@ function ryno_build_header() { ?>
 
 <?php
 }
+
 function ryno_build_analytics_header() {
-	if ( is_page(196) ) {
-?>
+	if ( is_page(196) ) : ?>
 <script type="text/javascript">
 function recordOutboundLink(link, category, action) {
 try {
@@ -57,6 +52,6 @@ setTimeout('document.location = "' + link.href + '"', 100)
 }catch(err){}
 }
 </script>
-<?php
-	}
+	<?php
+	endif;
 }
